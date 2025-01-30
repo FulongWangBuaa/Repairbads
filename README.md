@@ -1,7 +1,7 @@
 
 Repairbads is an automatic and adaptive method to repair bad channels and segments for OPM-MEG.
 
-Implementation code and example data for the Repairbads method are provided here.
+Implementation code for the Repairbads method is provided here.
 
 If you use any part of the code, please cite the following publications:
 
