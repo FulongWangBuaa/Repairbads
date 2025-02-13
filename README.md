@@ -26,11 +26,11 @@ raw_repairbads = repairbads(raw,LF)
 # Cite
 If you use any part of the code, please cite the following publication:
 
-- Wang F., Ma Y., Gao T., et al. Repairbads: An Automatic and Adaptive Method to Repair Bad Channels and Segments for OPM-MEG[J]. NeuroImage, 2025,306: 120996. [DOI:https://doi.org/10.1016/j.neuroimage.2024.120996](https://doi.org/10.1016/j.neuroimage.2024.120996)
+- Wang F., Ma Y., Gao T., et al. Repairbads: An Automatic and Adaptive Method to Repair Bad Channels and Segments for OPM-MEG[J]. NeuroImage, 2025,306: 120996. [DOI: https://doi.org/10.1016/j.neuroimage.2024.120996](https://doi.org/10.1016/j.neuroimage.2024.120996)
 
 # Acknowledgements
-- [1] Nolan H., Whelan R., Reilly R. B. FASTER: Fully Automated Statistical Thresholding for EEG Artifact Rejection[J]. Journal of Neuroscience Methods, 2010,192(1): 152-162.
-- [2] De Cheveigné A., Simon J. Z. Sensor Noise Suppression[J]. Journal of Neuroscience Methods, 2008,168(1): 195-202
-- [3] Mutanen T. P., Metsomaa J., Liljander S., et al. Automatic and Robust Noise Suppression in EEG and MEG: The SOUND Algorithm[J]. NeuroImage, 2018,166: 135-151.
-- [4] De Cheveigné A., Parra L. C. Joint Decorrelation, a Versatile Tool for Multichannel Data Analysis[J]. NeuroImage, 2014,98: 487-505.
+- [1] Nolan H., Whelan R., Reilly R. B. FASTER: Fully Automated Statistical Thresholding for EEG Artifact Rejection[J]. Journal of Neuroscience Methods, 2010,192(1): 152-162. [DOI: https://doi.org/10.1016/j.neuroimage.2024.120996](https://doi.org/10.1016/j.jneumeth.2010.07.015)
+- [2] De Cheveigné A., Simon J. Z. Sensor Noise Suppression[J]. Journal of Neuroscience Methods, 2008,168(1): 195-202. [DOI: https://doi.org/10.1016/j.jneumeth.2007.09.012](https://doi.org/10.1016/j.jneumeth.2007.09.012)
+- [3] Mutanen T. P., Metsomaa J., Liljander S., et al. Automatic and Robust Noise Suppression in EEG and MEG: The SOUND Algorithm[J]. NeuroImage, 2018,166: 135-151. [DOI: https://doi.org/10.1016/j.neuroimage.2017.10.021](https://doi.org/10.1016/j.neuroimage.2017.10.021)
+- [4] De Cheveigné A., Parra L. C. Joint Decorrelation, a Versatile Tool for Multichannel Data Analysis[J]. NeuroImage, 2014,98: 487-505. [DOI: https://doi.org/10.1016/j.neuroimage.2014.05.068](https://doi.org/10.1016/j.neuroimage.2014.05.068)
 
