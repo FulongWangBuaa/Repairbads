@@ -12,14 +12,16 @@ To obtain the lead field matrix, please refer to the following steps：
 - Using fwd = [mne.make_forward_solution(...)](https://mne.tools/stable/generated/mne.make_forward_solution.html#mne.make_forward_solution) function to calculate a forward solution for a subject.
 - The leadfield matrix can be obtained using `LF = fwd["sol"]["data"]`.
 
+## Example Code
 ```python
 from wfl_preproc_repairbads import repairbads
 raw = mne.io.read_raw_fif(raw_path)
 # LF: leadfield matrix
 raw_repairbads = repairbads(raw,LF)
 ```
-
-- Note: The file `wfl_preproc_faster.py` is a Python implementation of the `FASTER` [1] method. For specific details on the implementation, please refer to "3.1.3 Benchmark Methods" in the Repairbads paper. And `wfl_preproc_sns.py` is a Python implementation of the `SNS` [2] method.
+## Note
+- The file `wfl_preproc_faster.py` is a Python implementation of the `FASTER` [1] method. For specific details on the implementation, please refer to "3.1.3 Benchmark Methods" in the Repairbads paper.
+- The file `wfl_preproc_sns.py` is a Python implementation of the `SNS` [2] method.
 
 # Cite
 If you use any part of the code, please cite the following publications:
