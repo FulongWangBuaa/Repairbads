@@ -4,8 +4,10 @@ Repairbads is an automatic and adaptive method to repair bad channels and segmen
 Implementation code for the Repairbads method is provided here.
 
 ```python
+from wfl_preproc_repairbads import repairbads
 raw = mne.io.read_raw_fif(raw_path)
-raw_repairbads = wfl_preproc_repairbads(raw,LF,)
+# LF: leadfield matrix
+raw_repairbads = wfl_preproc_repairbads(raw,LF)
 ```
 
 If you use any part of the code, please cite the following publications:
