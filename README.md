@@ -4,7 +4,7 @@
 Implementation code for the `Repairbads` method is provided here.
 
 # Quick start
-Using the Repairbads code requires raw continuous data with an MNE-Python raw structure and leadfield matrix.
+Using the `Repairbads` code requires raw continuous data with an MNE-Python raw structure and leadfield matrix.
 
 To learn how to construct the raw structure, please refer [The Raw data structure: continuous data](https://mne.tools/stable/auto_tutorials/raw/10_raw_overview.html#the-raw-data-structure-continuous-data)
 
