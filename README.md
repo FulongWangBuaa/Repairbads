@@ -4,6 +4,14 @@ Repairbads is an automatic and adaptive method to repair bad channels and segmen
 Implementation code for the Repairbads method is provided here.
 
 # Quick start
+Using the Repairbads code requires raw continuous data with an MNE-Python raw structure and leadfield matrix.
+
+To learn how to construct the raw structure, please refer [The Raw data structure: continuous data](https://mne.tools/stable/auto_tutorials/raw/10_raw_overview.html#the-raw-data-structure-continuous-data)
+
+To obtain the lead field matrix, please refer to the following steps：
+- Using fwd = [mne.make_forward_solution(...)](https://mne.tools/stable/generated/mne.make_forward_solution.html#mne.make_forward_solution) function to calculate a forward solution for a subject.
+- The lead field matrix can be obtained using LF = fwd["sol"]["data"].
+
 ```python
 from wfl_preproc_repairbads import repairbads
 raw = mne.io.read_raw_fif(raw_path)
