@@ -10,7 +10,7 @@ To learn how to construct the raw structure, please refer [The Raw data structur
 
 To obtain the lead field matrix, please refer to the following steps：
 - Using fwd = [mne.make_forward_solution(...)](https://mne.tools/stable/generated/mne.make_forward_solution.html#mne.make_forward_solution) function to calculate a forward solution for a subject.
-- The lead field matrix can be obtained using LF = fwd["sol"]["data"].
+- The leadfield matrix can be obtained using LF = fwd["sol"]["data"].
 
 ```python
 from wfl_preproc_repairbads import repairbads
