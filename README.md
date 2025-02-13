@@ -8,7 +8,7 @@ Implementation code for the Repairbads method is provided here.
 from wfl_preproc_repairbads import repairbads
 raw = mne.io.read_raw_fif(raw_path)
 # LF: leadfield matrix
-raw_repairbads = wfl_preproc_repairbads(raw,LF)
+raw_repairbads = repairbads(raw,LF)
 ```
 
 # Cite
