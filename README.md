@@ -24,7 +24,7 @@ raw_repairbads = repairbads(raw,LF)
 - The file `wfl_preproc_sns.py` is a Python implementation of the `SNS` [2] method.
 
 # Cite
-If you use any part of the code, please cite the following publications:
+If you use any part of the code, please cite the following publication:
 
 - Wang F., Ma Y., Gao T., et al. Repairbads: An Automatic and Adaptive Method to Repair Bad Channels and Segments for OPM-MEG[J]. NeuroImage, 2025,306: 120996. [DOI:https://doi.org/10.1016/j.neuroimage.2024.120996](https://doi.org/10.1016/j.neuroimage.2024.120996)
 
